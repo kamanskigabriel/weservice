@@ -1,15 +1,14 @@
 {
-  "name": "webservice",
+  "name": "livros-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serviço web REST individual em Node.js/Express para o recurso 'livros', com endpoints GET, POST, PUT e DELETE.",
   "license": "MIT",
-  "author": "Bl3c4g",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "dev": "node --watch index.js",
-    "prod": "node index.js"
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
   },
   "dependencies": {
     "express": "^5.2.1"
